@@ -24,7 +24,8 @@
         android:background="#cbcc159b"
         android:textSize="20sp"
         android:id="@+id/button"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:onClick="clickText"/>
 
     <TextView
         android:layout_width="100dp"
@@ -35,6 +36,39 @@
         android:gravity="center"
         android:id="@+id/textView3"
         android:layout_gravity="right|top" />
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="#16b4ac"
+        android:layout_gravity="center_horizontal|top"
+        android:gravity="center_horizontal|top"
+        >
+    <Button
+        android:layout_width="119dp"
+        android:layout_height="50dp"
+        android:textSize="10sp"
+        android:text="Вывести пиво"
+        android:background="#cbcc159b"
+        android:id="@+id/button2"
+        android:layout_gravity="center_horizontal|top" />
 
+    <EditText
+        android:layout_width="119sp"
+        android:layout_height="100sp"
+        android:id="@+id/editText"
+        android:layout_below="@id/button2"
+        android:background="#43cc2e2e"
+        android:layout_gravity="center_horizontal|top" />
+</RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="150sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Textsdfffffffffffffffffff
+        ffffffffffffsdfffffff
+        fffffffff"
+        android:id="@+id/textView"
+        android:layout_gravity="bottom" />
 
 </FrameLayout>

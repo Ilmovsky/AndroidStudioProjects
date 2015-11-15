@@ -1,0 +1,51 @@
+{
+  "name": "Super pub",
+  "location": "Minsk",        
+  "emails": [
+    	"sgasdg@gmail.com",
+     	"aaaaasfs@gmail.com",
+     	"bbbesfwef@gmail.com"
+   ],
+  "goods": [
+      {
+        "id": 0,
+        "name": "Beer №1",
+        "country": "DE",
+        "year": "2004-10-25",
+        "price": 45,
+        "visible": true
+      },
+      {
+        "id": 1,
+        "name": "Beer №2",
+        "country": "RU",
+        "year": "2010-10-25",
+        "price": 534,
+        "visible": true
+      },
+      {
+        "id": 2,
+        "name": "Beer №3",
+        "country": "BY",
+        "year": "2012-10-25",
+        "price": 12,
+        "visible": true
+      },
+      {
+        "id": 3,
+        "name": "Beer №4",
+        "country": "CZ",
+        "year": "2015-10-25",
+        "price": 34,
+        "visible": true
+      },
+      {
+        "id": 4,
+        "name": "Beer №5",
+        "country": "AU",
+        "year": "2007-10-25",
+        "price": 54,
+        "visible": true
+      }
+    ]
+}
