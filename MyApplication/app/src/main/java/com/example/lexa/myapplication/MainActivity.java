@@ -17,6 +17,7 @@ public class MainActivity extends Activity  implements View.OnClickListener{
     static Manager manager = Manager.getInstance();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        manager.start();
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button button =(Button)findViewById(R.id.button);
@@ -32,7 +33,7 @@ public class MainActivity extends Activity  implements View.OnClickListener{
             }
         });
         text.setOnClickListener(this);
-        manager.schit();
+
     }
     public void clickText(View v){
         String se = (String)text.getText();
@@ -59,8 +60,8 @@ public class MainActivity extends Activity  implements View.OnClickListener{
                 Toast.makeText(MainActivity.this, "Vvedite ot l do 5", Toast.LENGTH_LONG).show();}
                 else{
                  TextView text3 = (TextView)findViewById(R.id.textView);
-
-                  text3.setText((CharSequence) manager.getGood().get(2));
+                    String sere = String.valueOf(manager.getGood().get(Integer.parseInt(texte)-1));
+                  text3.setText(sere);
 
                 }
             }
