@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.lexa.widjet">
+
+    <receiver
+        android:name="MyWidget"
+        android:icon="@android:drawable/star_big_on"
+        android:label="@string/widget_name">
+        <intent-filter>
+            <action
+                android:name="android.appwidget.action.APPWIDGET_UPDATE">
+            </action>
+        </intent-filter>
+        <meta-data
+            android:name="android.appwidget.provider"
+            android:resource="@xml/widget_metadata">
+        </meta-data>
+    </receiver>
+
+</manifest>
