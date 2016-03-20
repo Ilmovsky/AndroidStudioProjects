@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">АЛКОТРЭШ</string>
+    <string name="app1_name">АЛКОСПИСОК</string>
+    <string name="Button">Новый трэш</string>
+    <string name="Button2">Просмотреть историю</string>
+    <string name="Button3">Настройки</string>
+    <string name="Button4">Определить место</string>
+    <string name="Button5">Выбрать напиток</string>
+    <string name="Button6">Сделать Фото</string>
+    <string name="Button7">Назад</string>
+    <string name="Button8">Следующее</string>
+    <string name="Button9">Предыдущее</string>
+    <string name="Button10">Выбрать</string>
+    <string name="Button11">Да</string>
+    <string name="Button12">Отмена</string>
+    <string name="Button13">Просмотреть данные</string>
+    <string name="Button14">Сохранить сейчас</string>
+    <string name="Button15">Сохранить позже</string>
+    <string name="Delete">Удалить</string>
+    <string name="Add">Добавить</string>
+    <string name="Find">Поиск</string>
+    <string name="Te1">Введите вид напитка:</string>
+    <string name="Te2">Введите крепость напитка в формате **.* в %:</string>
+    <string name="Te3">Введите название страницы в интернете:</string>
+    <string name="Te9">Такой напиток уже существует</string>
+    <string name="Text">Вы не ввели имя напитка. Сохранение не возможно. Попробуйте еще раз</string>
+    <string name="Text2">Вы не ввели название напитка. Для дальнейших действий нужно название</string>
+    <string name="Text3">Вы не ввели количество выпитого напитка. Для дальнейших действий нужно количество</string>
+    <string name="Site">https://ru.wikipedia.org/wiki/%D0%90%D0%BB%D0%BA%D0%BE%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5_%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BA%D0%B8</string>
+    <string name="Name">Выберите напитки для удаления из списка:</string>
+    <string name="Name3">Ваши последние напитки:\nХотите что-то удалить?</string>
+    <string name="Name1">Введите отсутствующий напиток:</string>
+    <string name="Name2">Вы хотите сохранить данные в базу:</string>
+    <string name="Te4">Введите название напитка:</string>
+    <string name="Te5">Введите крепость напитка в градусах:\nВ противном случае будет принято среднее значение</string>
+    <string name="Te6">Введите количество напитка в мл:</string>
+    <string name="Te7">Введите название для сохранения:</string>
+    <string name="Te8">мл</string>
+    <string name="Te10">%</string>
+    <string name="Te11">Вы удалили все напитки.Список пуст.Ничего не сохранилось</string>
+    <string name="Re"> Ваш напиток:</string>
+    <string name="Re2"> Его название:</string>
+    <string name="Re3"> Его крепость:</string>
+    <string name="Re4"> Выпитый объем:</string>
+    <string name="action_settings">Настройки</string>
+
+</resources>

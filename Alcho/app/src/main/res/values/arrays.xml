@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listArray">
+        <item>ПИВО</item>
+        <item>ЭЛЬ</item>
+        <item>ТЕСГУИНО</item>
+        <item>БОЗА</item>
+        <item>ВИСКИ</item>
+        <item>СЁТЮ</item>
+        <item>ВОДКА</item>
+        <item>БУРБОН</item>
+        <item>МАОТАЙ</item>
+        <item>БАЙЦЗЮ</item>
+        <item>АВАМОРИ</item>
+        <item>СОДЖУ</item>
+        <item>САКЕ</item>
+        <item>ТУАК</item>
+        <item>МАКГОЛИ</item>
+        <item>ВИНО</item>
+        <item>СИДР</item>
+        <item>ЧЕРНИЛО</item>
+        <item>БРЕНДИ</item>
+        <item>КОНЬЯК</item>
+        <item>ВЕРМУТ</item>
+        <item>ПИСКО</item>
+        <item>РАКИЯ</item>
+        <item>АРАК</item>
+        <item>КАЛЬВАДОС</item>
+        <item>ПАЛИНКА</item>
+        <item>СЛИВОВИЦА</item>
+        <item>УМЭСЮ</item>
+        <item>ДЖИН</item>
+        <item>БОРОВИЧКА</item>
+        <item>АКВАВИТ</item>
+        <item>ПОТИН</item>
+        <item>РОМ</item>
+        <item>РОМОВЫЙ ЭЛЕКСИР</item>
+        <item>КАШАСА</item>
+        <item>ТЕКИЛА</item>
+        <item>МЕСКАЛЬ</item>
+        <item>ШАМПАНСКОЕ</item>
+        <item>КУМЫС</item>
+        <item>АБСЕНТ</item>
+        <item>ЧАЧА</item>
+        <item>ШНАПС</item>
+        <item>САМОГОН</item>
+        <item>ЛИКЁР</item>
+        <item>НАСТОЙКА</item>
+        <item>БАЛЬЗАМ</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>от 2.0 до 14.0</item>
+        <item>от 2.5 до 12.0</item>
+        <item>от 1.5 до 8.0</item>
+        <item>1.0</item>
+        <item>40.0</item>
+        <item>от 25.0 до 45.0</item>
+        <item>40.0</item>
+        <item>40.0</item>
+        <item>от 35.0 до 53.0</item>
+        <item>70.0</item>
+        <item>от 30.0 до 60.0</item>
+        <item>от 20.0 до 45.0</item>
+        <item>от 14.5 до 20.0</item>
+        <item>от 20.0 до 35.0</item>
+        <item>от 6.5 до 7.0</item>
+        <item>от 9.0 до 22.0</item>
+        <item>от 1.0 до 8.0</item>
+        <item>от 5.0 до 15.0</item>
+        <item>от 40.0 до 60.0</item>
+        <item>40.0</item>
+        <item>от 10.0 до 18.0</item>
+        <item>43.0</item>
+        <item>от 40.0 до 60.0</item>
+        <item>от 30.0 до 50.0</item>
+        <item>от 30.0 до 50.0</item>
+        <item>от 37.5</item>
+        <item>от 45.0 до 75.0</item>
+        <item>от 10.0 до 15.0</item>
+        <item>от 37.5 до 50.0</item>
+        <item>от 37.0 до 55.0</item>
+        <item>от 38.0 до 50.0</item>
+        <item>от 40.0 до 90.0</item>
+        <item>от 40.0 до 80.0</item>
+        <item>от 30.0 до 40.0</item>
+        <item>от 39.0 до 40.0</item>
+        <item>от 35.0 до 55.0</item>
+        <item>от 38.0 до 43.0</item>
+        <item>от 6.0 до 14.0</item>
+        <item>от 0.2 до 4.5</item>
+        <item>от 70.0 до 86.0</item>
+        <item>от 40.0 до 70.0</item>
+        <item>от 25.0 до 40.0</item>
+        <item>от 40.0 до 80.0</item>
+        <item>от 15.0 до 75.0</item>
+        <item>от 18.0 до 45.0</item>
+        <item>от 40.0 до 45.0</item>
+    </string-array>
+
+    <string-array name="listValues1">
+        <item>https://ru.wikipedia.org/wiki/%D0%9F%D0%B8%D0%B2%D0%BE</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%AD%D0%BB%D1%8C</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D1%81%D0%B3%D1%83%D0%B8%D0%BD%D0%BE</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D0%B7%D0%B0</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D1%81%D0%BA%D0%B8</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%A1%D1%91%D1%82%D1%8E</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%B4%D0%BA%D0%B0</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%91%D1%83%D1%80%D0%B1%D0%BE%D0%BD_(%D0%B2%D0%B8%D1%81%D0%BA%D0%B8)</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BE%D1%82%D0%B0%D0%B9</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%B9%D1%86%D0%B7%D1%8E</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%90%D0%B2%D0%B0%D0%BC%D0%BE%D1%80%D0%B8</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B4%D0%B6%D1%83</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BA%D0%B5</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%A2%D1%83%D0%B0%D0%BA</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%9C%D0%B0%D0%BA%D0%B3%D0%BE%D0%BB%D0%B8</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D0%BD%D0%BE</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%A1%D0%B8%D0%B4%D1%80</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%9F%D0%BB%D0%BE%D0%B4%D0%BE%D0%B2%D0%BE%D0%B5_%D0%B2%D0%B8%D0%BD%D0%BE</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%B5%D0%BD%D0%B4%D0%B8</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D1%8C%D1%8F%D0%BA</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%92%D0%B5%D1%80%D0%BC%D1%83%D1%82</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%9F%D0%B8%D1%81%D0%BA%D0%BE_(%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BA)</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%BA%D0%B8%D1%8F</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%90%D1%80%D0%B0%D0%BA_(%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BA)</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D0%BB%D1%8C%D0%B2%D0%B0%D0%B4%D0%BE%D1%81_(%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BA)</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%9F%D0%B0%D0%BB%D0%B8%D0%BD%D0%BA%D0%B0</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%A1%D0%BB%D0%B8%D0%B2%D0%BE%D0%B2%D0%B8%D1%86%D0%B0</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%A3%D0%BC%D1%8D%D1%81%D1%8E</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%94%D0%B6%D0%B8%D0%BD</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%B0</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%90%D0%BA%D0%B2%D0%B0%D0%B2%D0%B8%D1%82</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D1%82%D0%B8%D0%BD_(%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BA)</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%BC</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D0%BC</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%88%D0%B0%D1%81%D0%B0</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BA%D0%B8%D0%BB%D0%B0</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%81%D0%BA%D0%B0%D0%BB%D1%8C</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%A8%D0%B0%D0%BC%D0%BF%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%B5</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%9A%D1%83%D0%BC%D1%8B%D1%81</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%90%D0%B1%D1%81%D0%B5%D0%BD%D1%82</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%A7%D0%B0%D1%87%D0%B0_(%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BA)</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%A8%D0%BD%D0%B0%D0%BF%D1%81</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%A1%D0%B0%D0%BC%D0%BE%D0%B3%D0%BE%D0%BD</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D0%BA%D1%91%D1%80</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%9D%D0%B0%D1%81%D1%82%D0%BE%D0%B9%D0%BA%D0%B0_(%D0%B0%D0%BB%D0%BA%D0%BE%D0%B3%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BA)</item>
+        <item>https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D0%BB%D1%8C%D0%B7%D0%B0%D0%BC_(%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BA)</item>
+    </string-array>
+
+    <string-array name="listImages">
+        <item>a1</item>
+        <item>a2</item>
+        <item>a3</item>
+        <item>a4</item>
+        <item>a5</item>
+        <item>a6</item>
+        <item>a7</item>
+        <item>a8</item>
+        <item>a9</item>
+        <item>a10</item>
+        <item>a11</item>
+        <item>a12</item>
+        <item>a13</item>
+        <item>a14</item>
+        <item>a15</item>
+        <item>a16</item>
+        <item>a17</item>
+        <item>a18</item>
+        <item>a19</item>
+        <item>a20</item>
+        <item>a21</item>
+        <item>a22</item>
+        <item>a23</item>
+        <item>a24</item>
+        <item>a25</item>
+        <item>a26</item>
+        <item>a27</item>
+        <item>a28</item>
+        <item>a29</item>
+        <item>a30</item>
+        <item>a31</item>
+        <item>a32</item>
+        <item>a33</item>
+        <item>a34</item>
+        <item>a35</item>
+        <item>a36</item>
+        <item>a37</item>
+        <item>a38</item>
+        <item>a39</item>
+        <item>a40</item>
+        <item>a41</item>
+        <item>a42</item>
+        <item>a43</item>
+        <item>a44</item>
+        <item>a45</item>
+        <item>a46</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MyTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="colorPrimary">#12f2dc</item>
+        <item name="colorPrimaryDark">#0d9aff</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColorAlertDialogListItem">#ffffff</item>
+    </style>
+
+</resources>
