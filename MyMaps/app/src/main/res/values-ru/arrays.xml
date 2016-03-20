@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listArray">
+        <item>памятник</item>
+        <item>фонтан</item>
+        <item>церковь</item>
+        <item>здание</item>
+        <item>мост</item>
+        <item>архитектура</item>
+        <item>парк</item>
+        <item>музей</item>
+        <item>остановка</item>
+        <item>площадь</item>
+        <item>отель</item>
+        <item>ресторан</item>
+        <item>бар</item>
+        <item>пивная</item>
+        <item>рисунки и граффити</item>
+        <item>магазин</item>
+        <item>вакзал или аэропорт</item>
+    </string-array>
+    </resources>

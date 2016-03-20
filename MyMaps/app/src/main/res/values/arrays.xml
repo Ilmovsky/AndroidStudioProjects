@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listArray">
+        <item>monument</item>
+        <item>fountain</item>
+        <item>church</item>
+        <item>building</item>
+        <item>bridge</item>
+        <item>architecture</item>
+        <item>park</item>
+        <item>museum</item>
+        <item>stopping</item>
+        <item>square</item>
+        <item>hotel</item>
+        <item>restaurant</item>
+        <item>bar</item>
+        <item>pub</item>
+        <item>drawings and graffiti</item>
+        <item>store</item>
+        <item>railway station or airport</item>
+    </string-array>
+    </resources>
