@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Snake"
+        android:textSize="35sp"
+        android:textColor="#f9f9f9"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/textView3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start The Game"
+        android:layout_marginTop="60dp"
+        android:id="@+id/button"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textColor="#f9f9f9" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="asd"
+        android:id="@+id/button2"
+        android:onClick="onControl"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textColor="#f9f9f9" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Speed"
+        android:id="@+id/button3"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:textColor="#f9f9f9" />
+
+
+</LinearLayout>
