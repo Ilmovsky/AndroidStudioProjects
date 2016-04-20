@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DiseaseRibbon</string>
+    <string name="Button">Добавить тему</string>
+    <string name="Button2">Искать тему</string>
+    <string name="Button3">Отменить</string>
+    <string name="Button4">Обновить</string>
+    <string name="text">Введите название:</string>
+    <string name="Name">Хотите создать новую тему?</string>
+    <string name="Name2">создал новую тему</string>
+    <string name="Name4">Лента болезней</string>
+    <string name="Name3">Введите текст</string>
+    <string name="Toast">Вы не ввели тему. Введите название новой темы!</string>
+    <string name="Toast2">Вы не ввели сообщение. Вы хотите что-то сообщить?</string>
+</resources>

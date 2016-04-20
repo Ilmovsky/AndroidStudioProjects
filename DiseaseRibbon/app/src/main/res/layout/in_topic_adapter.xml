@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/person_photo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="16dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/person_name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/person_photo"
+        android:layout_alignParentTop="true"
+        />
+
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    card_view:cardCornerRadius="12dp"
+    android:layout_toRightOf="@+id/person_photo"
+    android:layout_below="@+id/person_name"
+    card_view:cardBackgroundColor="#aafffefe"
+
+    >
+
+    <TextView
+        android:id="@+id/tv_summa"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="14sp"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:textColor="#251919"
+
+        />
+
+</android.support.v7.widget.CardView>
+
+</RelativeLayout>
