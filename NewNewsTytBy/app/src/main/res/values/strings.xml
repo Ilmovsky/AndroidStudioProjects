@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Новости Tut.by</string>
+    <string name="Name">Добро пожаловать</string>
+    <string name="Button">Повторить</string>
+    <string name="Button2">Назад</string>
+    <string name="DialogName">Включите интернет</string>
+    <string name="Toast1">Новых новостей нет</string>
+    <string name="Toast2">База обновлена, загруженны новые новости</string>
+    <string name="Toast3">Загруженны новые новости</string>
+    <string name="Progress">Загрузка данных</string>
+    <string name="Progress2">Пожалуйста, подождите</string>
+</resources>
