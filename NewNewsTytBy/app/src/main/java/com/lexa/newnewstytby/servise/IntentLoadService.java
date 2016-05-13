@@ -50,12 +50,18 @@ public class IntentLoadService extends IntentService {
         List<BaseClass> rssInfoList = new ArrayList<BaseClass>();
         try {
             rssInfoList = HelperFactory.getHelper().getBaseClassDAO().getAllBaseClasses();
-            if(rssInfoList.get(0).getName().equalsIgnoreCase(needObjectNews.get(0).getName())){
-                Log.e("ddgfdgfdgf1", "Нет новых новостей");
-                isNewNews = false;
+            if(rssInfoList.size() != 0) {
+                if (rssInfoList.get(0).getName().equalsIgnoreCase(needObjectNews.get(0).getName())) {
+                    Log.e("ddgfdgfdgf1", "Нет новых новостей");
+                    isNewNews = false;
+                } else {
+                    HelperFactory.getHelper().getBaseClassDAO().delete(rssInfoList);
+                    for (int i = 0; i < needObjectNews.size(); i++) {
+                        HelperFactory.getHelper().getBaseClassDAO().createIfNotExists(needObjectNews.get(i));
+                    }
+                }
             }
-            else {
-                HelperFactory.getHelper().getBaseClassDAO().delete(rssInfoList);
+            else{
                 for (int i = 0; i < needObjectNews.size(); i++) {
                     HelperFactory.getHelper().getBaseClassDAO().createIfNotExists(needObjectNews.get(i));
                 }
