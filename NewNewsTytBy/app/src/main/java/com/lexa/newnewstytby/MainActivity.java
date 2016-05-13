@@ -11,6 +11,9 @@ import com.lexa.newnewstytby.fragments.ListFragment;
 import com.lexa.newnewstytby.fragments.NewsFragment;
 import com.lexa.newnewstytby.ormLite.BaseClass;
 
+import net.hockeyapp.android.CrashManager;
+import net.hockeyapp.android.UpdateManager;
+
 import java.util.List;
 
 
@@ -46,12 +49,15 @@ public class MainActivity extends AppCompatActivity implements EnterFragment.OnF
         if(savedInstanceState == null) {
             getEnterFragment();
         }
+
+        checkForUpdates();
     }
 
 
     @Override
     protected void onResume() {
         super.onResume();
+        checkForCrashes();
     }
 
     @Override
@@ -63,9 +69,15 @@ public class MainActivity extends AppCompatActivity implements EnterFragment.OnF
             savedInstanceState = listFragment.getInsState();
         }
         super.onPause();
+        unregisterManagers();
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
 
+        unregisterManagers();
+    }
 
     public void getEnterFragment() {
         EnterFragment enterFragment = EnterFragment.newInstance();
@@ -152,6 +164,22 @@ public class MainActivity extends AppCompatActivity implements EnterFragment.OnF
         toolbar.setTitle(R.string.app_name);
         setSupportActionBar(toolbar);
     }
+
+
+    private void checkForCrashes() {
+
+        CrashManager.register(this);
+    }
+
+    private void checkForUpdates() {
+        // Remove this for store builds!
+        UpdateManager.register(this);
+    }
+
+    private void unregisterManagers() {
+        UpdateManager.unregister();
+    }
+
 
 
 
