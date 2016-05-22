@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<RelativeLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/trip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trip_world"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="16dp"
+        android:textSize="30sp">
+    </TextView>
+
+
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/first_layout"
+        android:layout_below="@id/trip" >
+
+        <com.lexa.tripworld.delay_auto_complete.DelayAutoCompleteTextView
+            android:id="@+id/city_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="@string/editText1"
+            android:background="@drawable/custom_edit_text"
+            android:gravity="center"
+            android:paddingRight="32dp" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="16dp"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/second_layout"
+        android:layout_below="@id/first_layout" >
+
+        <com.lexa.tripworld.delay_auto_complete.DelayAutoCompleteTextView
+            android:id="@+id/city_title2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="@string/editText2"
+            android:background="@drawable/custom_edit_text"
+            android:gravity="center"
+            android:paddingRight="32dp" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar2"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="16dp"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/date_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickDate"
+        android:background="#00ffffff"
+        android:src="@mipmap/calendar"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:text="@string/search"
+        android:layout_below="@id/second_layout" >
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/date_trip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="4dp"
+        android:layout_below="@+id/second_layout"
+        android:layout_toLeftOf="@+id/date_button"
+        android:text="@string/Text"
+        android:background="@drawable/custom_edit_text"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btnfind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClickFind"
+        android:background="@drawable/state_button"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:drawableLeft="@drawable/sear"
+        android:layout_below="@id/date_button"
+        android:text="@string/search">
+    </Button>
+
+</RelativeLayout>
+
+</ScrollView>

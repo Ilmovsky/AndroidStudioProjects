@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TripWorld</string>
+    <string name="trip_world">World of Travel</string>
+    <string name="search">Search</string>
+    <string name="editText1">First City</string>
+    <string name="editText2">Second City</string>
+    <string name="Text">Change Date</string>
+    <string name="Toast">Complete ol fields</string>
+    <string name="Toast2">Search is not yet implemented</string>
+    <string name="Toast3">GPS connection is on</string>
+    <string name="Toast4">GPS connection is off</string>
+    <string name="Toast5">Internet connection is on</string>
+    <string name="Toast6">Internet connection is off</string>
+</resources>
