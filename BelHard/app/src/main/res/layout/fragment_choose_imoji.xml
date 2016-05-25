@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/input_text1"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#ffffff"
+    >
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView2"
+        android:layout_width="match_parent"
+        android:paddingLeft="25dp"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:layout_width="@dimen/btn_send"
+        android:layout_height="@dimen/btn_send"
+        android:id="@+id/btnRight"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/state_bg_button_2"
+        android:src="@drawable/btn_add"
+        android:scaleType="centerInside"/>
+
+    <LinearLayout
+        android:id="@+id/lineer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_add_size"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/btnRight"
+        android:weightSum="100"
+        android:orientation="horizontal">
+
+      <ImageButton
+          android:layout_width="0dp"
+          android:layout_height="@dimen/btn_send"
+          android:layout_weight="25"
+          android:id="@+id/b1"
+          android:background="@drawable/state_bg_button_2"
+          android:src="@drawable/ic_smile"
+          />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="@dimen/btn_send"
+            android:layout_weight="25"
+            android:id="@+id/b2"
+            android:background="@drawable/state_bg_button_2"
+            android:src="@drawable/ic_smile"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="@dimen/btn_send"
+            android:layout_weight="25"
+            android:id="@+id/b3"
+            android:background="@drawable/state_bg_button_2"
+            android:src="@drawable/ic_smile"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="@dimen/btn_send"
+            android:layout_weight="25"
+            android:id="@+id/b4"
+            android:background="@drawable/state_bg_button_2"
+            android:src="@drawable/ic_smile"
+            />
+
+
+        </LinearLayout>
+
+</RelativeLayout>

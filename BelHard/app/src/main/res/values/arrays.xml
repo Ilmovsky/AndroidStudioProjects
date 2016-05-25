@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array  name="listArray">
+        <item>0x1F601</item>
+        <item>0x1F602</item>
+        <item>0x1F603</item>
+        <item>0x1F604</item>
+        <item>0x1F605</item>
+        <item>0x1F606</item>
+        <item>0x1F609</item>
+        <item>0x1F60A</item>
+        <item>0x1F60B</item>
+        <item>0x1F60C</item>
+        <item>0x1F60D</item>
+        <item>0x1F60F</item>
+        <item>0x1F612</item>
+        <item>0x1F613</item>
+        <item>0x1F614</item>
+        <item>0x1F618</item>
+        <item>0x1F61A</item>
+    </integer-array>
+
+    <integer-array  name="listArray2">
+        <item>0x1F601</item>
+        <item>0x1F602</item>
+        <item>0x1F603</item>
+    </integer-array>
+
+    <integer-array  name="listArray3">
+        <item>0x1F606</item>
+        <item>0x1F609</item>
+        <item>0x1F613</item>
+        <item>0x1F614</item>
+        <item>0x1F618</item>
+    </integer-array>
+
+    <integer-array  name="listArray4">
+        <item>0x1F605</item>
+        <item>0x1F606</item>
+        <item>0x1F609</item>
+        <item>0x1F60A</item>
+        <item>0x1F60B</item>
+        <item>0x1F60C</item>
+        <item>0x1F60D</item>
+        <item>0x1F60F</item>
+    </integer-array>
+
+    <integer-array  name="listArray5">
+        <item>0x1F605</item>
+        <item>0x1F606</item>
+        <item>0x1F609</item>
+        <item>0x1F60A</item>
+        <item>0x1F60B</item>
+        <item>0x1F60C</item>
+        <item>0x1F60D</item>
+        <item>0x1F60F</item>
+    </integer-array>
+
+</resources>

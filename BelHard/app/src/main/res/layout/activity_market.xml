@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="12dp"
+        android:id="@+id/btnRight2"
+        android:src="@drawable/monster" />
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@+id/btnRight2"
+        android:layout_toLeftOf="@+id/btnRight4"
+        android:id="@+id/btnRight3"
+        android:src="@drawable/mons3" />
+    <ImageView
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnRight4"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp"
+        android:src="@drawable/mons2" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/btnRight2"
+        >
+
+    <android.support.v4.app.FragmentTabHost
+        android:id="@android:id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"/>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </android.support.v4.app.FragmentTabHost>
+    </RelativeLayout>
+
+    </RelativeLayout>

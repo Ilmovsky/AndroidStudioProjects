@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/image_mark"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/collect_mark2"
+        android:textColor="#30c75d"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="26sp"
+        android:layout_toLeftOf="@+id/prise_mark"
+        android:layout_toRightOf="@+id/image_mark"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:id="@+id/writer_mark"
+        android:textColor="#666563"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@+id/collect_mark2"
+        android:layout_toLeftOf="@+id/prise_mark"
+        android:layout_toRightOf="@+id/image_mark"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/prise_mark"
+        android:layout_marginRight="25dp"
+        android:layout_alignParentRight="true"
+        android:textColor="#969424"
+        android:layout_centerVertical="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>

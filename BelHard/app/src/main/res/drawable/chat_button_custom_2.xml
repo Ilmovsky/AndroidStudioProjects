@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval" >
+            <solid android:color="#1dde0c"/>
+            <padding android:left="18dip" android:top="18dip" android:right="18dip" android:bottom="18dip"/>
+        </shape>
+    </item>
+    <item>
+        <bitmap android:src="@mipmap/chat"/>
+    </item>
+</layer-list>
